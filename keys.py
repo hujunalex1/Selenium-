@@ -28,6 +28,6 @@ driver.find_element_by_id("kw").send_keys(Keys.CONTROL,'v')
 
 #通过回车键盘来代替点击操作
 driver.find_element_by_id("kw").send_keys(Keys.ENTER)
-time.sleep(2)
+
 driver.quit()
 
