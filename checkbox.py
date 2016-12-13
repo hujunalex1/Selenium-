@@ -1,4 +1,5 @@
 #coding=utf-8
+#多组元素定位--CheckBox
 import os
 import time
 from  selenium import webdriver
