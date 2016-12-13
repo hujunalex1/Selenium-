@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ea7e631-c81c-435a-9374-5e27d14eca9c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checkbox.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdrivewait.py" afterPath="$PROJECT_DIR$/webdrivewait.py" />
     </list>
     <ignored path="Selenium-.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,13 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="checkbox.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/checkbox.py">
+      <file leaf-file-name="frame.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="173">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
-                <element signature="e#14#23#0" expanded="true" />
+                <element signature="e#39#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,6 +68,7 @@
         <option value="$PROJECT_DIR$/webdrive.py" />
         <option value="$PROJECT_DIR$/webdrivewait.py" />
         <option value="$PROJECT_DIR$/checkbox.py" />
+        <option value="$PROJECT_DIR$/frame.py" />
       </list>
     </option>
   </component>
@@ -132,24 +131,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.checkbox">
-    <configuration default="false" name="backforward" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Selenium-" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backforward.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.frame">
     <configuration default="false" name="keys" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,6 +196,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Selenium-" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkbox.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="frame" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Selenium-" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/frame.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -366,19 +365,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.backforward" />
-      <item index="1" class="java.lang.String" itemvalue="Python.keys" />
-      <item index="2" class="java.lang.String" itemvalue="Python.authentication" />
-      <item index="3" class="java.lang.String" itemvalue="Python.webdrivewait" />
-      <item index="4" class="java.lang.String" itemvalue="Python.checkbox" />
+      <item index="0" class="java.lang.String" itemvalue="Python.keys" />
+      <item index="1" class="java.lang.String" itemvalue="Python.authentication" />
+      <item index="2" class="java.lang.String" itemvalue="Python.webdrivewait" />
+      <item index="3" class="java.lang.String" itemvalue="Python.checkbox" />
+      <item index="4" class="java.lang.String" itemvalue="Python.frame" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.checkbox" />
-        <item index="1" class="java.lang.String" itemvalue="Python.webdrivewait" />
-        <item index="2" class="java.lang.String" itemvalue="Python.authentication" />
-        <item index="3" class="java.lang.String" itemvalue="Python.keys" />
-        <item index="4" class="java.lang.String" itemvalue="Python.backforward" />
+        <item index="0" class="java.lang.String" itemvalue="Python.frame" />
+        <item index="1" class="java.lang.String" itemvalue="Python.checkbox" />
+        <item index="2" class="java.lang.String" itemvalue="Python.webdrivewait" />
+        <item index="3" class="java.lang.String" itemvalue="Python.authentication" />
+        <item index="4" class="java.lang.String" itemvalue="Python.keys" />
       </list>
     </recent_temporary>
   </component>
@@ -581,10 +580,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/checkbox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="154">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
             <element signature="e#14#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#39#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
