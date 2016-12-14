@@ -13,7 +13,7 @@ driver.find_element_by_xpath("//*[@id='topbar_nav']/li[1]/a[1]").click()
 driver.find_element_by_id("username").clear()
 driver.find_element_by_id("username").send_keys("18267200735")
 driver.find_element_by_id("password").clear()
-driver.find_element_by_id("password").send_keys("nopainnogain5233")
+driver.find_element_by_id("password").send_keys("password")
 driver.find_element_by_id("password").send_keys(Keys.ENTER)
 cookie = driver.get_cookies()
 print cookie
