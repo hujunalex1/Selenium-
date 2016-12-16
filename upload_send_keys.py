@@ -17,10 +17,10 @@ driver.find_element_by_css_selector("input[name='password']").send_keys("passwor
 driver.find_element_by_css_selector("input[name='password']").submit()
 #关闭弹出框
 driver.find_element_by_css_selector("body > div.welcome-box > div.welcome-close.icon.icon-close.close-addAnimation").click()
-#等待3秒去点击上传按钮
-time.sleep(3)
+#等待2秒去点击上传按钮
+time.sleep(2)
 #上传文件
 driver.find_element_by_id("h5Input0").send_keys("c:\\Temp\\frame.html")
-time.sleep(3)
+time.sleep(2)
 driver.quit()
 
