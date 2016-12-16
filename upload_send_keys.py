@@ -12,7 +12,7 @@ driver.implicitly_wait(10)
 #输入用户名
 driver.find_element_by_css_selector("input[name='userName']").send_keys("18267200735")
 #输入密码
-driver.find_element_by_css_selector("input[name='password']").send_keys("hj673320")
+driver.find_element_by_css_selector("input[name='password']").send_keys("password")
 #sumbit
 driver.find_element_by_css_selector("input[name='password']").submit()
 #关闭弹出框
