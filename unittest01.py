@@ -13,6 +13,7 @@ class Unittest01(unittest.TestCase):
     def test_unittest01(self):
         driver = self.driver
         driver.get(self.base_url + "/")
+        driver.maximize_window()
         time.sleep(2)
         driver.find_element_by_link_text(u"登 录").click()
         driver.find_element_by_id("username").clear()
