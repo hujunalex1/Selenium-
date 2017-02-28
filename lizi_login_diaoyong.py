@@ -5,7 +5,8 @@ import public
 
 driver = webdriver.Chrome()
 driver.get("http://www-test.lizi.com")
-
+driver.maximize_window()
+driver.implicitly_wait(3)
 # 调用登录模块
 public.login(driver)
 
