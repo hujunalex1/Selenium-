@@ -43,7 +43,7 @@ class ordertest(unittest.TestCase):
         #点击去结算按钮
         driver.find_element_by_id("topay").click()
         #进行订单备注
-        driver.find_element_by_name("e0d078b5-61f6-4c19-8627-185b59a0d2a0").send_keys("this is unittest")
+        driver.find_element_by_name("e0d078b5-61f6-4c19-8627-185b59a0d2a0").send_keys("just for unittest")
         #点击提交订单按钮
         driver.find_element_by_id("topay").click()
         #选择付款方式并付款
