@@ -20,4 +20,4 @@ def login(driver):
 def logout(driver):
     time.sleep(2)
     driver.find_element_by_link_text(u"退出").click()
-    driver.quit()
+
