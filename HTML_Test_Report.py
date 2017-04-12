@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
 #定义测试报告
     runner = HTMLTestRunner.HTMLTestRunner(stream=fp,
-                                           title='百度搜索测试报告',
+                                           title=u'百度搜索测试报告',
                                            description = u'用例执行情况:')
 
 #运行测试用例
