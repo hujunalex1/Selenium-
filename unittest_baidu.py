@@ -8,7 +8,7 @@ class MyTest(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome()
-        self.driver.maximize_window()
+        #self.driver.maximize_window()
         self.driver.implicitly_wait(10)
         self.base_url="http://www.baidu.com"
 

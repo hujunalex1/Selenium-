@@ -14,7 +14,7 @@ class Ranzhi(unittest.TestCase):
 
     # 主函数
     def test_ranzhi(self):
-        # 读取CSV文件到user_list字典类型变量中
+# 读取CSV文件到user_list字典类型变量中
         user_list = csv.reader(open("list_to_user.csv", "r"))
         # 遍历整个user_list
         for user in user_list:

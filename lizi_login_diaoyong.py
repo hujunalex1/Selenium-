@@ -1,14 +1,17 @@
 # coding=utf-8
 
 from  selenium import webdriver
-import public
+
+from public import login
 
 driver = webdriver.Chrome()
 driver.get("http://www-test.lizi.com")
-driver.maximize_window()
+
 driver.implicitly_wait(3)
 # 调用登录模块
-public.login(driver)
-
+login.login(driver)
 # 调用退出模块
-public.logout(driver)
+login.logout(driver)
+
+driver.quit()
+

@@ -1,8 +1,8 @@
 #coding=utf-8
 """
 
-乙醇的一个提交建议的实例
-https://jinshuju.net/f/kRXoEv
+乙醇的一个表单提交实例
+
 """
 from selenium import webdriver
 import time
@@ -20,5 +20,7 @@ driver.find_element_by_css_selector("#entry_field_4").send_keys("huj@lizi.com")
 time.sleep(2)
 #点击提交按钮
 driver.find_element_by_name("commit").click()
+
+driver.quit()
 
 

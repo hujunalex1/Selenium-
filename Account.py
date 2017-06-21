@@ -6,7 +6,6 @@ file = open("c:\\Temp\\info.txt","r")
 values = file.readlines()
 print  values
 file.close()
-
 for search in values:
     driver = webdriver.Chrome()
     driver.get("http://www.baidu.com")

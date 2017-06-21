@@ -1,7 +1,8 @@
 #coding=utf-8
 from selenium import webdriver
 import time
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
+driver.maximize_window()
 driver.get("https://login.lizi.com/login?service=http://www.lizi.com/")
 
 
