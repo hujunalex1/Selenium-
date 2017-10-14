@@ -15,7 +15,7 @@ class ordertest(unittest.TestCase):
         driver = self.driver
         driver.get(self.baseurl)
         time.sleep(2)
-        driver.maximize_window()
+       # driver.maximize_window()
         #点击关闭弹出广告按钮
         driver.find_element_by_css_selector(".ui-dialog-close").click()
         #点击登录按钮
