@@ -2,71 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ea7e631-c81c-435a-9374-5e27d14eca9c" name="Default" comment="自动化测试实例">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Testscript/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/geckodriver.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conf/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Account.py" afterPath="$PROJECT_DIR$/Testscript/Account.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ApiTest.py" afterPath="$PROJECT_DIR$/Testscript/ApiTest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/BaiduSearch_HTMLTest_report.py" afterPath="$PROJECT_DIR$/Testscript/BaiduSearch_HTMLTest_report.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ButtonGroup.py" afterPath="$PROJECT_DIR$/Testscript/ButtonGroup.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DownLoad_File.py" afterPath="$PROJECT_DIR$/Testscript/DownLoad_File.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Get_Css_Property.py" afterPath="$PROJECT_DIR$/Testscript/Get_Css_Property.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML_Test_Report.py" afterPath="$PROJECT_DIR$/Testscript/HTML_Test_Report.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Huj_modle.py" afterPath="$PROJECT_DIR$/Testscript/Huj_modle.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ScreenShot.py" afterPath="$PROJECT_DIR$/Testscript/ScreenShot.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ScrollTop.py" afterPath="$PROJECT_DIR$/Testscript/ScrollTop.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SwitchToAlert.py" afterPath="$PROJECT_DIR$/Testscript/SwitchToAlert.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/UnitTest_TestSuite.py" afterPath="$PROJECT_DIR$/Testscript/UnitTest_TestSuite.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/UrlTest.py" afterPath="$PROJECT_DIR$/Testscript/UrlTest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebElement.py" afterPath="$PROJECT_DIR$/Testscript/WebElement.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/above.py" afterPath="$PROJECT_DIR$/Testscript/above.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/appiumtest.py" afterPath="$PROJECT_DIR$/Testscript/appiumtest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assert.py" afterPath="$PROJECT_DIR$/Testscript/assert.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assertin.py" afterPath="$PROJECT_DIR$/Testscript/assertin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/authentication.py" afterPath="$PROJECT_DIR$/Testscript/authentication.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/backforward.py" afterPath="$PROJECT_DIR$/Testscript/backforward.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/button.html" afterPath="$PROJECT_DIR$/TestData/button.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/checkbox.py" afterPath="$PROJECT_DIR$/Testscript/checkbox.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clear.py" afterPath="$PROJECT_DIR$/Testscript/clear.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cnblogs.py" afterPath="$PROJECT_DIR$/Testscript/cnblogs.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cookie.py" afterPath="$PROJECT_DIR$/Testscript/cookie.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cookie_lizi.py" afterPath="$PROJECT_DIR$/Testscript/cookie_lizi.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css.py" afterPath="$PROJECT_DIR$/Testscript/css.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/csv" afterPath="$PROJECT_DIR$/TestData/csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data_driver.py" afterPath="$PROJECT_DIR$/Testscript/data_driver.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/day01_lizi.py" afterPath="$PROJECT_DIR$/Testscript/day01_lizi.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/drag.py" afterPath="$PROJECT_DIR$/Testscript/drag.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/exe.py" afterPath="$PROJECT_DIR$/Testscript/exe.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fenye.py" afterPath="$PROJECT_DIR$/Testscript/fenye.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flask01.py" afterPath="$PROJECT_DIR$/Testscript/flask01.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame.py" afterPath="$PROJECT_DIR$/Testscript/frame.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/keys.py" afterPath="$PROJECT_DIR$/Testscript/keys.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/link.py" afterPath="$PROJECT_DIR$/Testscript/link.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lizi_login.py" afterPath="$PROJECT_DIR$/Testscript/lizi_login.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lizi_login_diaoyong.py" afterPath="$PROJECT_DIR$/Testscript/lizi_login_diaoyong.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lizi_order.py" afterPath="$PROJECT_DIR$/Testscript/lizi_order.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/login_lizi_public.py" afterPath="$PROJECT_DIR$/Testscript/login_lizi_public.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/Testscript/main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mouse.py" afterPath="$PROJECT_DIR$/Testscript/mouse.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nav.html" afterPath="$PROJECT_DIR$/Testscript/nav.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/navs.py" afterPath="$PROJECT_DIR$/Testscript/navs.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/never.py" afterPath="$PROJECT_DIR$/Testscript/never.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/order.py" afterPath="$PROJECT_DIR$/Testscript/order.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pagination.html" afterPath="$PROJECT_DIR$/TestData/pagination.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/read_xml.py" afterPath="$PROJECT_DIR$/Testscript/read_xml.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/segmentfault.py" afterPath="$PROJECT_DIR$/Testscript/segmentfault.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/select.py" afterPath="$PROJECT_DIR$/Testscript/select.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/submit.py" afterPath="$PROJECT_DIR$/Testscript/submit.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unittest01.py" afterPath="$PROJECT_DIR$/Testscript/unittest01.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unittest_baidu.py" afterPath="$PROJECT_DIR$/Testscript/unittest_baidu.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unittests.py" afterPath="$PROJECT_DIR$/Testscript/unittests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload_send_keys.py" afterPath="$PROJECT_DIR$/Testscript/upload_send_keys.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webdrivewait.py" afterPath="$PROJECT_DIR$/Testscript/webdrivewait.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/weibo.py" afterPath="$PROJECT_DIR$/Testscript/weibo.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/window_size.py" afterPath="$PROJECT_DIR$/Testscript/window_size.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xpath.py" afterPath="$PROJECT_DIR$/Testscript/xpath.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yizuduixiang.py" afterPath="$PROJECT_DIR$/Testscript/yizuduixiang.py" />
     </list>
     <ignored path="Selenium-.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,7 +39,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/upload_send_keys.py" />
         <option value="$PROJECT_DIR$/data_driver.py" />
         <option value="$PROJECT_DIR$/read_xml.py" />
         <option value="$PROJECT_DIR$/unittest01.py" />
@@ -153,12 +89,13 @@
         <option value="$PROJECT_DIR$/lizi_order.py" />
         <option value="$PROJECT_DIR$/SwitchToAlert.py" />
         <option value="$PROJECT_DIR$/login_lizi_public.py" />
+        <option value="$PROJECT_DIR$/Conf/_init_.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2040" />
-    <option name="y" value="-9" />
+    <option name="x" value="2023" />
+    <option name="y" value="-14" />
     <option name="width" value="1446" />
     <option name="height" value="813" />
   </component>
@@ -239,6 +176,7 @@
       <recent name="F:\GitHub\Selenium-\public" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GitHub\Selenium-python\Conf" />
       <recent name="F:\GitHub\Selenium-" />
     </key>
   </component>
@@ -571,7 +509,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2040" y="-9" width="1446" height="813" extended-state="0" />
+    <frame x="2023" y="-14" width="1446" height="813" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16017316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30809128" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -651,20 +589,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Testscript/assert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testscript/exe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Testscript/WebElement.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -1004,6 +928,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conf/_init_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conf/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
