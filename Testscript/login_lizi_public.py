@@ -10,6 +10,10 @@ class LoginTest(unittest.TestCase):
         self.base_url = "http://www-test.lizi.com"
         self.driver.implicitly_wait(5)
 
+
+    def tearDown(self):
+        self.driver.quit()
+
     def test_lizi(self):
         driver = self.driver
         driver.get(self.base_url)
@@ -21,8 +25,6 @@ class LoginTest(unittest.TestCase):
         # 调用退出函数
         login.logout(driver)
 
-    def tearDown(self):
-        self.driver.quit()
 
 
 if __name__ == "__main__":
