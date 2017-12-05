@@ -20,7 +20,7 @@ class Nala(unittest.TestCase):
         #driver.find_element_by_css_selector(".red").click()
         driver.find_element_by_class_name("red").click()
         driver.find_element_by_css_selector("input[name='userName']").send_keys("18267200735")
-        driver.find_element_by_css_selector("input[name='password']").send_keys("hj123456")
+        driver.find_element_by_css_selector("input[name='password']").send_keys("xxxxx")
         driver.find_element_by_css_selector("input[type='submit']").click()
         loginName= driver.find_element_by_css_selector(".gold").text
         print loginName
