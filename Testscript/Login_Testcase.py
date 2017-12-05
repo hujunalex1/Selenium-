@@ -68,7 +68,7 @@ if __name__ == '__main__':
 
     fp=file(filename,'wb')
     runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title='nalatestlogin',description='testreport')
-
+    runner.run(suit)
     fp.close()
 
 
