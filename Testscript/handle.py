@@ -12,7 +12,7 @@ h = driver.current_window_handle  #获取当前窗口句柄
 
 print  h
 
-driver.find_element_by_name('tj_trnews').send_keys(Keys.CONTROL + 't')
+driver.find_element_by_name('tj_trnews').send_keys(Keys.CONTROL + 't') # 新标签页打开百度新闻 ，这里未生效。
 
 all_h = driver.window_handles  #获取所有句柄
 
