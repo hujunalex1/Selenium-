@@ -5,11 +5,12 @@ import time
 import unittest
 import HTMLTestRunner
 
+
 class LoginCase(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome()
-        self.testurl = "xxxxxxx"
+        self.testurl = "https://login.lizi.com/common/tmpLogin"
 
 
     #定义登录方法
@@ -24,20 +25,20 @@ class LoginCase(unittest.TestCase):
 
     def test_login_success(self):
         '''用户名、密码正确'''
-        self.login('xxxx','xxxx')
+        self.login('18267200735','11111')
         name = self.driver.find_element_by_css_selector('.name').text
         self.assertTrue('No_matter' in name)
 
     def test_login_pwd_error(self):
         '''用户名正确、密码不正确'''
-        self.login('xxxx','xxxx')
+        self.login('1826720735','hj12345678')
         time.sleep(2)
         error_message = self.driver.find_element_by_css_selector('#login_form > ul > li.error').text
         self.assertEqual(u'用户名或密码错误',error_message)
 
     def test_username_error(self):
          '''用户名错误、密码正确'''
-         self.login('xxxx','xxxx')
+         self.login('xxxx','hj123456')
          time.sleep(2)
          error_message = self.driver.find_element_by_css_selector('#login_form > ul > li.error').text
          self.assertEqual(u'用户名或密码错误',error_message)
@@ -45,7 +46,7 @@ class LoginCase(unittest.TestCase):
 
     def test_username_null(self):
         '''用户名为空，密码正确'''
-        self.login('','xxxxx')
+        self.login('','hj123456')
         error_message = self.driver.find_element_by_css_selector('#login_form > ul > li.error').text
         #self.assertEqual(u'用户名或密码错误',error_message)
 
@@ -57,18 +58,23 @@ class LoginCase(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    suit = unittest.TestSuite()
+    suite = unittest.TestSuite()
 
-    suit.addTest(LoginCase('test_login_success'))
-    suit.addTest(LoginCase('test_login_pwd_error'))
-    suit.addTest(LoginCase('test_username_error'))
-    suit.addTest(LoginCase('test_username_null'))
+    suite.addTest(LoginCase('test_login_success'))
+    suite.addTest(LoginCase('test_login_pwd_error'))
+    suite.addTest(LoginCase('test_username_error'))
+    suite.addTest(LoginCase('test_username_null'))
 
-    filename= 'F:\\Github\\Selenium-python\\Report\\nalalogin.html'
+    now = time.strftime("%Y-%m-%d %H_%M_%S",time.localtime(time.time()))
+
+    filename= 'F:\\Github\\Selenium-python\\Report\\'+now+'lizilogin.html'
 
     fp=file(filename,'wb')
-    runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title='nalatestlogin',description='testreport')
-    runner.run(suit)
+
+    runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title='testlogin',description='testreport')
+
+    runner.run(suite)
+
     fp.close()
 
 
