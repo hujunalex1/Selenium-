@@ -1,6 +1,8 @@
 #coding=utf-8
-
+from selenium.webdriver.common.action_chains import ActionChains
 from  selenium.webdriver.support.wait import WebDriverWait
+import time
+
 
 def find(self,loc):
         '''
@@ -14,7 +16,7 @@ def find(self,loc):
         except Exception,e:
             print u"%s 页面中超时%ds未能找到 %s 元素%s" %(self,self.timeout,loc,e)
 
-    def find_elements(self,loc):
+def find_elements(self,loc):
         '''
         find elements.
         Usage:
@@ -26,7 +28,7 @@ def find(self,loc):
         except Exception,e:
             print u"%s 页面中超时%ds未能找到 %s 元素%s" %(self,self.timeout,loc,e)
 
-    def click_keys(self,loc):
+def click_keys(self,loc):
         '''
         click keys
         Usage:
@@ -34,7 +36,7 @@ def find(self,loc):
         '''
         self.find(loc).click()
 
-    def clear_keys(self,loc):
+def clear_keys(self,loc):
         '''
         clear keys
         Usage:
@@ -42,26 +44,26 @@ def find(self,loc):
         '''
         self.find(loc).clear()
 
-    def send_keys(self,loc,value):
+def send_keys(self,loc,value):
         '''
         send keys
         Usage:
         send_keys((By.XPATH,"//a"),'a')
         '''
-        sleep(3)
+        time.sleep(3)
         self.clear_keys(loc)
         self.find(loc).send_keys(value)
 
-    def click_button(self,loc):
+def click_button(self,loc):
         '''
         click button
         Usage:
         click_button((By.XPATH,"//a"))
         '''
-        sleep(3)
+        time.sleep(3)
         self.find(loc).click()
 
-    def script(self,src):
+def script(self,src):
         '''
         execute_script
         Usage:
@@ -69,7 +71,7 @@ def find(self,loc):
         '''
         return self.driver.execute_script(src)
 
-    def wait(self, secs):
+def wait(self, secs):
         '''
         Implicitly wait.All elements on the page.
         Usage:
@@ -77,7 +79,7 @@ def find(self,loc):
         '''
         self.driver.implicitly_wait(secs)
 
-    def set_window(self, wide, high):
+def set_window(self, wide, high):
         '''
         Set browser window wide and high.
         Usage:
@@ -85,7 +87,7 @@ def find(self,loc):
         '''
         self.driver.set_window_size(wide, high)
 
-    def right_click(self, loc):
+def right_click(self, loc):
         '''
         Right click element.
         Usage:
@@ -94,7 +96,7 @@ def find(self,loc):
         el = self.find(loc)
         ActionChains(self.driver).context_click(el).perform()
 
-    def move_to_element(self, loc):
+def move_to_element(self, loc):
         '''
         Mouse over the element.
         Usage:
@@ -103,7 +105,7 @@ def find(self,loc):
         el = self.find(loc)
         ActionChains(self.driver).move_to_element(el).perform()
 
-    def double_click(self, loc):
+def double_click(self, loc):
         '''
         Double click element.
         Usage:
@@ -112,7 +114,7 @@ def find(self,loc):
         el = self.find(loc)
         ActionChains(self.driver).double_click(el).perform()
 
-    def drag_and_drop(self, loc1, loc2):
+def drag_and_drop(self, loc1, loc2):
         '''
         Drags an element a certain distance and then drops it.
         Usage:
@@ -122,7 +124,7 @@ def find(self,loc):
         target  = self.find(loc2)
         ActionChains(self.driver).drag_and_drop(element , target).perform()
 
-    def get_display(self, loc):
+def get_display(self, loc):
         '''
         Gets the element to display,The return result is true or false.
         Usage:
@@ -131,13 +133,13 @@ def find(self,loc):
         el = self.find(loc)
         return el.is_displayed()
 
-    def isElement(self,identifyBy,c):
+def isElement(self,identifyBy,c):
         '''
         Determine whether elements exist
         Usage:
         isElement(By.XPATH,"//a")
         '''
-        sleep(1)
+        time.sleep(1)
         flag=None
         try:
             if identifyBy == "id":
@@ -164,7 +166,7 @@ def find(self,loc):
         finally:
             return flag
 
-    def refresh(self):
+def refresh(self):
         '''
         refresh  page
         Usage:
@@ -173,7 +175,7 @@ def find(self,loc):
         self.driver.implicitly_wait(10)
         self.driver.refresh()
 
-    def list_to_str(self,string):
+def list_to_str(self,string):
         '''
         string to unicode
         Usage:
@@ -182,25 +184,25 @@ def find(self,loc):
         str_symptom = str(string).replace('u\'','\'')
         return str_symptom.decode("unicode-escape")
 
-    def get_text(self,loc):
+def get_text(self,loc):
         '''
         get text
         Usage:
         get_text(By.XPATH,"//a")
         '''
-        sleep(3)
+        time.sleep(3)
         return self.find(loc).text
 
-    def get_url(self,url):
+def get_url(self,url):
         '''
         get url
         Usage:
         get_url(url)
         '''
-        sleep(3)
+        time.sleep(3)
         return self.driver.get(url)
 
-    def get_title(self,url):
+def get_title(self,url):
         '''
         get title
         Usage:
